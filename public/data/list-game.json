@@ -1,0 +1,34 @@
+[
+    {
+      "id": "1",
+      "name": "the witcher 3",
+      "img": "/img/the-witcher-1-384x488.jpg",
+      "genre": ["Action" , "Adventure"],
+      "platform": ["pc", "ps5", "steam"],
+      "summary": "this is the witcher 3"
+    },
+    {
+      "id": "2",
+      "name": "PLANES OF GLORIA",
+      "img": "/img/Planes-of-Gloria-384x488.jpg",
+      "genre": ["strategy" , "simulation"],
+      "platform": ["xbox"],
+      "summary": "this is the planes"
+    },
+    {
+      "id": "3",
+      "name": "space war",
+      "img": "/img/me-cover-384x488.jpg",
+      "genre": ["sction" , "adventure"],
+      "platform": ["xbox", "Steam"],
+      "summary": "this is the space war"
+    },
+    {
+      "id": "4",
+      "name": "gta v",
+      "img": "/img/gta-poster-384x488.jpg",
+      "genre": ["Open World" , "Adventure"],
+      "platform": ["pc", "steam"],
+      "summary": "GTV V"
+    }
+  ]

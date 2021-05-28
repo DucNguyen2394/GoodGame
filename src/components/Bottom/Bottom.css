@@ -1,0 +1,38 @@
+.bottom{
+    height: 50px;
+    background-color: #000;
+}
+
+.bottom img{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.bottom .container{
+    align-items: center;
+}
+
+.bottom .container .d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-right{
+    display: flex;
+    align-items: center;
+}
+
+.bottom-right a{
+    padding-left: 12px;
+    font-size: 16px;
+}
+
+@media (max-width: 1199px){
+    .bottom .container{
+        display: flex;
+        justify-content: center;
+    }
+}
