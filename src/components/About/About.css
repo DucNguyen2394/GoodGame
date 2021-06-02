@@ -1,5 +1,94 @@
 .about-wrapper{
-    background-image: url('../../assets/img/slider-crysis.jpg');
+    background-image: url('../../assets/img/banner1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     width: 100%;
-    height: auto;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
 }
+
+.about-wrapper::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    z-index: -1;
+    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 960px) {
+    .img-about{
+        display: none;
+    }
+    .inner-about{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .content{padding-left: 0px;}
+}
+
+.inner-about{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-about{
+    max-width: 100%;
+    box-shadow: 0 0 3rem rgb(0 0 0 / 35%);
+    padding: 20px;
+}
+
+.content{
+    max-width: 100%;
+    padding: 90px;
+}
+
+.title-about{
+    text-transform: uppercase;
+    font-family: 'Titillium Web';
+    font-weight: 800;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title-about span{
+    color: #dc3545;
+}
+
+.excerpt{
+    color: #FFF;
+    padding-top: 30px;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+}
+
+.btn-about{
+    font-weight: 600;
+    margin-top: 40px;
+    color: #fff;
+    width: 90px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dc3545;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn-about:hover {
+    transition: all 0.4s ease;
+    color: #dc3545;
+}
+
